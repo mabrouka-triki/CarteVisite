@@ -1,0 +1,33 @@
+/* Corps de la page */
+body {
+    margin:0;
+    font-family: 'Arial' , sans-serif;
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: #333333;
+ 
+ 
+ } 
+      
+   
+ 
+ /* Animation de l'arrière-plan */
+ @keyframes gradientBackground {
+     0% { background-position: 0% 50%; }
+     50% { background-position: 100% 50%; }
+     100% { background-position: 0% 50%; }
+ }
+ 
+ /* En-tête */
+ header {
+     margin-top: 20px;
+ }
+ 
+ 
+ header h1 {
+     font-size: 2.5em;
+     color: rgb(52, 48, 48);
+     text-align: center;
+   
+ 
+ 
+ }
